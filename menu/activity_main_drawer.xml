@@ -26,11 +26,11 @@
             android:title="Seksueel misbruik" />
     </group>
 
-    <item android:title="Informatie">
+    <item android:title="Meer">
         <menu>
             <item
                 android:id="@+id/downloaden"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/pdf"
                 android:title="Download het protocol" />
             <item
                 android:id="@+id/informatie"
@@ -40,6 +40,10 @@
                 android:id="@+id/faq"
                 android:icon="@android:drawable/ic_menu_help"
                 android:title="FAQ" />
+            <item
+                android:id="@+id/veiligthuis"
+                android:icon="@android:drawable/ic_menu_call"
+                android:title="Veilig Thuis" />
         </menu>
     </item>
 
