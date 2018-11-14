@@ -12,12 +12,14 @@
         <item
             android:id="@+id/stappen1"
             android:icon="@drawable/ic_menu_send"
-            android:title="Huiselijk Geweld" />
+            android:title="Huiselijk Geweld"/>
+
         <item
             android:id="@+id/stappen2"
             android:icon="@drawable/ic_menu_send"
-            android:title="Vermoeden van zedelijk misbruik"
-            android:titleCondensed="door medewerker" />
+            android:subtitle="zedelijk misbruik door medewerker"
+            android:title="Vermoeden van"
+            />
         <item
             android:id="@+id/stappen3"
             android:icon="@drawable/ic_menu_send"
