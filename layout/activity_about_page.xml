@@ -6,40 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".AboutPage">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="162dp"
-        android:layout_height="161dp"
-        android:src="@drawable/logo_zitten_klein"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="8dp" />
-
-    <TextView
-        android:id="@+id/textViewAboutText"
-        android:layout_width="342dp"
-        android:layout_height="226dp"
-        android:layout_marginTop="8dp"
-        android:text="Meldcode Kindermishandeling 1.0 Deze App is ontwikkeld door BOinK en Casa Solutions met gebruik van Xamarin Platform Deze is mede mogelijk gemaakt door: Kinderopvang stichting, etc"
-        app:fontFamily="sans-serif"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        tools:text="Meldcode Kindermishandeling 1.0 Deze App is ontwikkeld door BOinK en Casa Solutions met gebruik van Xamarin Platform Deze is mede mogelijk gemaakt door:Kinderopvang stichting, etc"
-        tools:textSize="24sp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_marginTop="16dp"
-        android:background="@color/colorPrimary"
-        android:text="Ga terug naar menu"
-        android:textColor="@android:color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewAboutText" />
-
+    <WebView
+        android:id="@+id/WebViewAbout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>
