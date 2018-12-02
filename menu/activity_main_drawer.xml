@@ -14,12 +14,12 @@
            android:id="@+id/stappen1"
            android:contentDescription="Dit is de tooltip tekst"
            android:icon="@drawable/ic_menu_send"
-           android:title="Huiselijk Geweld" />
+           android:title="Meldcode huiselijk geweld" />
 
         <item
             android:id="@+id/stappen2"
             android:icon="@drawable/ic_menu_send"
-            android:title="Geweld- of zedendelict medewerker" />
+            android:title="Misbruik door medewerker" />
         <item
             android:id="@+id/stappen3"
             android:icon="@drawable/ic_menu_send"
